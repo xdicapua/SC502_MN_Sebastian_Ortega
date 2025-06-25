@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Práctica 2 - Ambiente WEB/Servidor</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <title>Practica2P</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+  <h1>Practica2P_SebastianOrtega_MN</h1>
 
-    <h1>Ejercicio 1: Cargas Sociales</h1>
-    <input type="number" id="salario" placeholder="Ingrese el salario bruto"><br>
+  <!-- Ejercicio 1 -->
+  <div class="section">
+    <h2>Ejercicio 1: Cargas Sociales</h2>
+    <label for="salario">Salario Bruto (Usar Colones):</label>
+    <input type="number" id="salario" />
     <button id="btnCalcular">Calcular</button>
-
     <p id="cargasSociales"></p>
     <p id="impuestoRenta"></p>
     <p id="salarioNeto"></p>
+  </div>
 
-    <hr>
+  <!-- Ejercicio 2 -->
+  <div class="section">
+    <h2>Ejercicio 2: Manipulación del DOM</h2>
+    <p id="parrafo">Texto Original</p>
+    <button id="btnCambiar">Cambiar Texto</button>
+  </div>
 
-    <h1>Ejercicio 2: Manipulación del DOM</h1>
-    <p id="parrafo">Este es un parrafo original</p>
-    <button id="btnCambiar">Cambiar Párrafo</button>
+  <!-- Ejercicio 3 -->
+  <div class="section">
+    <h2>Ejercicio 3: Estructura de control de flujo</h2>
+    <label for="edad">Ingresa tu edad:</label>
+    <input type="number" id="edad" />
+    <button id="btnEdad">Verificar Edad</button>
+    <p id="mensajeEdad"></p>
+  </div>
 
-    <hr>
-
-    <h1>Ejercicio 3: Manipulación de Arreglos</h1>
+  <!-- Ejercicio 4 -->
+  <div class="section">
+    <h2>Ejercicio 4: Manipulación de Arreglos</h2>
     <div id="listaEstudiantes"></div>
+  </div>
 
-    <script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
